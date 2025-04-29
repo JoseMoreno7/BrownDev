@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+    .menu-desktop {
+      display: flex !important;
+    }
+  
+    .menu-mobile {
+      display: none !important;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .menu-desktop {
+      display: none !important;
+    }
+  
+    .menu-mobile {
+      display: block !important;
+    }
+  }
+  
